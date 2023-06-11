@@ -140,7 +140,7 @@ namespace GridIsland
             }
 
             //game loop
-            if (!Player.dead && !isPaused)
+            if (!Player.dead && !isPaused && scene == 1)
             {
                 score += gameTime.ElapsedGameTime.TotalSeconds;
                 controller.Update(gameTime, player.Rect);
