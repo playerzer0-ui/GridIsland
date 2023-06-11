@@ -146,6 +146,10 @@ namespace GridIsland
                 controller.Update(gameTime, player.Rect);
                 player.Update(gameTime);
             }
+            else if(Player.dead && !isPaused && scene == 1)
+            {
+                isPaused = true;
+            }
 
             old = _mState;
             base.Update(gameTime);

@@ -31,7 +31,7 @@ namespace GridIsland
             if(ballTimer <= 0)
             {
                 ballTimer = ballMaxTime;
-                if(ballMaxTime > 1)
+                if(ballMaxTime > 0.7)
                 {
                     ballMaxTime -= 0.05;
                 }
