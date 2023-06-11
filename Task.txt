@@ -1,0 +1,39 @@
+﻿# Grid Island
+
+this is a island survival based game
+
+you just need to move along the grid and dodge all potential enemy attacks
+
+see how long you survive
+
+# enemies
+
+the enemies would be:
+
+- a ball shooting at you
+- a wave coming in at vertical
+
+# scoring
+
+a score will be displayed at top left, one hit on player and game over
+
+(380, 240) topLeft
+(380, 420) bottomLeft
+(810, 240) topRight
+(810, 420) bottomRight
+
+60px jumpX
+
+# wave
+
+a timer of 4 seconds countdown, while that countdown, a warning will appear
+
+once it ends, wave come in
+
+and go back
+
+wave spawn vector
+(367, 700) 1 
+(490, 700) 2
+(609, 700) 3
+(730, 700) 3
