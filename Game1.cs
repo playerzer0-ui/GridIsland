@@ -108,7 +108,7 @@ namespace GridIsland
                 MusicBoards.clickSound.Play();
             }
             //pause
-            if(_mState.LeftButton == ButtonState.Pressed && old.LeftButton == ButtonState.Released && pauseRect.Contains(_mState.Position))
+            if(_mState.LeftButton == ButtonState.Pressed && old.LeftButton == ButtonState.Released && pauseRect.Contains(_mState.Position) && scene == 1)
             {
                 isPaused = true;
                 MusicBoards.clickSound.Play();
