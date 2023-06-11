@@ -28,7 +28,6 @@ namespace GridIsland
         private Rectangle resumeRect;
         private Texture2D pixel;
         private bool isPaused = false;
-        private bool clickPlayed = false;
 
         private MouseState _mState;
         private MouseState old;
